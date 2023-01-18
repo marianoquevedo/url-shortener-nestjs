@@ -1,0 +1,20 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "testEnvironment": "node",
+  "testMatch": [
+    "**/?(*.)+(spec|e2e-spec).ts"
+  ],
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/*.ts",
+    "!src/**/*.spec.ts"
+  ],
+  "coverageDirectory": "../coverage"
+}
